@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tipografia y encabezado</title>
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<script src="./js/bootstrap.bundle.min.js"></script>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+		<form action="">
+			<div class="form-floating mb-3 mt-3">
+				<input type="email" class="form-control" id="email" placeholder="enter email" name="email">
+				<label for="email">Email</label>
+			</div>
+			<div class="form-floating mb-3 mt-3">
+				<input type="password" class="form-control" id="pwd" placeholder="enter email" name="pswd">
+				<label for="pwd">Password</label>
+			</div>
+			<button type="submit" class="btn btn-primary">submit</button>					
+		</form>
+		</div>
+		<hr>
+		<div class="row">
+			<form class="was-validated" action="">
+				<div class="mb-3 mt-3">
+					<label for="user" class="form-label">Usuario</label>
+					<input type="text" id="user" placeholder="nombre usuario" class="form-control" required>
+					<div class="valid-feedback">Valido</div>
+					<div class="invalid-feedback">Por favor,rellena este campo.</div>
+				</div>
+				<div class="mb-3">
+					<label for="passwd" class="form-label">Contraseña</label>
+					<input type="password" id="passwd" class="form-control" placeholder="contraseña">
+					<div class="valid-feedback">Valido</div>
+					<div class="invalid-feedback">Por favor,rellena este campo.</div>
+				</div>
+				<div class="mb-3 mt-3">
+					<input type="checkbox" id="acepto" placeholder="nombre usuario" class="form-control-input" required>
+					<label for="acepto" class="form-check-label">Acepto los terminos y condiciones</label>
+					<div class="invalid-feedback">Marca la casilla.</div>
+				</div>
+				<button class="btn btn-primary" type="submit">Entrar</button>
+
+			</form>
+
+		</div>
+
+	</div>
