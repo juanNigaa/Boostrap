@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipografia y encabezado</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <style type="text/css">
+         .corte {
+            max-width: 800px;
+            height: 400px;
+            margin: 2px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 12px;
+            margin-top: 120px;
+            border: 1px solid rgba(0, 0, 0, 0.1); /* Borde muy sutil */
+        }
+        .corte1{ 
+            max-width: 410px;
+            margin: 2px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            margin-top: 0px;}
+        .boton1 {
+            
+            color: blue;
+            border-radius: 0;
+        }
+
+        .boton2{ padding: 10px 20px; /* Espaciado interno para hacer que el botón sea más grande */
+              border-radius: 30px; /* Esto hace que los bordes sean redondeados */
+              background-color: #4285f4; /* Color de fondo similar al de Google (azul) */
+              color: white; /* Texto en blanco */
+              border: none; /* Sin borde */
+              font-size: 16px; /* Tamaño del texto */
+              font-weight: bold; /* Texto en negrita */
+              cursor: pointer; /* Cambia el cursor cuando pasas el ratón por encima */
+              transition: background-color 0.3s; /* Efecto de transición al pasar el ratón */}
+        .amazon2{
+            max-width: 400px;
+            margin: 5px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            text-align: center;
+        }
+          footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 12px;
+            color: #555;
+        }
+        a{color: blue; text-decoration: none;  font-family: Comic Sans Ms}
+        .text-normal{font-weight: normal;}
+        h4{letter-spacing: 20px;}
+        body{background-color: #f0f4f9 }
+      
+        img{width: 100px; align-content:center; margin-bottom: 0px; padding: 0;}
+    </style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="corte">
+        <div class="row">
+            <div class="col-12">
+                <img src="imagenes/LogoGoogle.png">
+            </div>
+            <div class="col-6">
+                <h3>Inicia sesión</h3>
+                <p>Ir a gmail</p>
+            </div>
+            <div class="col-6">
+                <form action="">
+                    <div class="mb-3">
+                     <input type="email" class="form-control" id="floatingInput" placeholder="Correo electrónico o teléfono">
+                     <label for="floatingInput">Correo electrónico o teléfono</label>
+                    <p><a href="#">¿Has olvidado tu correo electrónico?</a></p>
+                   
+                    <p>¿No es tu ordenador? Usa el modo invitado para iniciar sesión de forma privada.<a href=""> Mas informacion sobre como usar el modo invitado</a></p>
+                </div>  
+            </form>
+            </div>
+            <div class="col-12 text-end">
+                <button class="btn boton1">Crear cuenta</button>
+                <button class="btn boton2">Siguiente</button>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>

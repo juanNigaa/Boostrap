@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipografia y encabezado</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <style type="text/css">
+         .amazon {
+            max-width: 410px;
+            margin: 2px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            border: 1px solid black;
+            margin-top: 0px;
+        }
+        .boton1 {
+            background-color: #FFCD00;
+            color: black;
+        }
+
+        .boton2{background-color: white; color: black; border: 1px solid black;}
+        .amazon2{
+            max-width: 400px;
+            margin: 5px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            text-align: center;
+        }
+          footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 12px;
+            color: #555;
+        }
+      
+        img{width: 150px; align-content:center; margin-bottom: 0px; padding: 0;}
+    </style>
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="imagenes/AmazonLogo.png" class="d-block mx-auto img-fluid">
+        <div class="amazon">
+            <h2>Iniciar sesión</h2>
+        <form action="" class="col-auto">
+            <div class="mb-3">
+                <label for="correo"><strong>Dirección de e-mail o número de teléfono móvil</strong></label>
+                <input type="text" name="correo" class="form-control w-100">
+            </div>
+            <div class="mb-3"><button class="btn boton1 w-100">Continuar</button></div>
+            <div class="mb-3">
+                <p>Al continuar,aceptas las <a href="#">Condiciones de uso y venta </a> De Amazon. Consulta nuestro <a href="#">Aviso de privacidad</a>. nuestro <a href="#">Aviso sobre cookies</a> y nuesto <a href="#">anuncios basados en intereses</a>.</p>
+                <br>
+                <ul>
+                    <li><a href="#">¿Necesitas ayuda?</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="mb-3">
+                <p>¿Compra para tu empresa?</p>
+                <p><a href="#">Compra en Amazon Business</a></p>
+            </div>
+
+
+        </form>
+        </div>
+        <div class="amazon2"><p>--------------¿Eres nuevo en Amazon?--------------</p>
+                <button class="btn btn-primary w-100 boton2">Crea tu cuenta de Amazon</button>
+        </div>
+    </div>
+       <footer>
+        <a href="#">Condiciones de uso</a>
+        <a href="#">Aviso de privacidad</a>
+        <a href="#">Ayuda</a>
+        <a href="#">Cookies</a>
+        <a href="#">Publicidad basada en intereses</a>
+        <p>© 1996-2024, Amazon.com, Inc. o sus afiliados</p>
+    </footer>
+
+</body>
