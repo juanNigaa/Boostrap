@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tipografia y encabezado</title>
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<script src="./js/bootstrap.bundle.min.js"></script>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h2>Plegable simple con botón</h2>
+				<p>Haz click sobre el botón para mostrar/ocultar el contenido</p>
+				<button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#Plegable1">Collapsible</button>
+
+				<div id="Plegable1" class="collapse">
+				Lorem ipsum dolor text....
+				</div>
+				<h2>Plegable con enlace</h2>
+				<a  href="#Plegable2" data-bs-toggle="collapse">Collapsible</a>
+
+				<div  id="Plegable2" class="collapse show">
+				Lorem ipsum dolor text....
+				</div>
+				
+			</div>
+		</div>
+		<hr>
+		
+	</div>
+</body>
